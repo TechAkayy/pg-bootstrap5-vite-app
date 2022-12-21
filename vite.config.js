@@ -21,8 +21,8 @@ export default defineConfig({
 		// minify: false,
 		// sourcemap: true,
 		outDir: 'dist',
-		// Don't empty as the dist folder is updated simultaneously by both Vite & Other CLI watch commands
-		emptyOutDir: false,
+		// Set to false if the dist folder is simultaneously updated by both Vite watch-build & Other CLI watch commands
+		// emptyOutDir: true,
 		// https://vitejs.dev/config/build-options.html#build-lib
 		lib: {
 			// // entry file that has es modules, library imports (like bootstrap), scss that requires preprocessing
